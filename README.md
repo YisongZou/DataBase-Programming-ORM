@@ -4,6 +4,7 @@ A Postgresql database system written by python and Django,Object-Relational Mapp
 Usage:
 
 ```
+cd ORM  //cd into the top ORM directory first
 python3 manage.py flush
 python3 manage.py migrate
 python3 main.py
