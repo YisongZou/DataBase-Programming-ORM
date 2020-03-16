@@ -1,4 +1,4 @@
-# DataBase-Programming-ORM-
+# DataBase-Programming-ORM
 A Postgresql database system written by python and Django, ORM is used to preventing from injection.
 
 Usage:
