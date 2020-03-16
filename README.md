@@ -3,7 +3,8 @@ A Postgresql database system written by python and Django, ORM is used to preven
 
 Usage:
 
-""" python3 manage.py flush
+'''
+python3 manage.py flush
 python3 manage.py migrate
 python3 main.py
-"""
+'''
