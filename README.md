@@ -1,5 +1,5 @@
 # DataBase-Programming-ORM
-A Postgresql database system written by python and Django, ORM is used to preventing from injection.
+A Postgresql database system written by python and Django,Object-Relational Mapping (ORM) is used that allows user to write transactions using an object-oriented paradigm, and it can prevent injection.
 
 Usage:
 
