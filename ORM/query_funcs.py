@@ -65,9 +65,7 @@ def query3(team_name):
 
 
 def query4(team_state, team_color):
-    ans = Player.objects.filter(team_id__state_id__name=team_state,
-                                 team_id__color_id__name=team_color).values_list("first_name", "last_name",
-                                                                                           "uniform_num")
+    ans = Player.objects.filter(team_id__state_id__name=team_state,team_id__color_id__name=team_color).values_list("first_name", "last_name","uniform_num")
     print("FIRST_NAME LAST_NAME UNIFORM_NUM")
     for player in ans:
         print(player[0], player[1], player[2])

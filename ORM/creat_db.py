@@ -11,7 +11,7 @@ def loadState():
     States = []
     for line in f:
         state_id, name= line.split(' ')
-        state = State(name = name)
+        state = State(name = name[:-1])
         States.append(state)
     f.close()
     State.objects.bulk_create(States)
@@ -23,7 +23,7 @@ def loadColor():
     Colors = []
     for line in f:
        color_id, name= line.split(' ')
-       color = Color(name = name)
+       color = Color(name = name[:-1])
        Colors.append(color)
     f.close()
     Color.objects.bulk_create(Colors)
